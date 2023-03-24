@@ -5,7 +5,7 @@ source ~/.config/zsh/ctrl-z.zsh
 source ~/.config/zsh/theme.zsh
 source ~/.config/zsh/fco.zsh
 source ~/.alias.zsh
-source ~/.local.zsh
+[[ -f ~/.local.zsh ]] && source ~/.local.zsh
 
 # source ~/src/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
