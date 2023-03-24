@@ -1,0 +1,11 @@
+vim/vim.symlink/bundle
+.netrwhist
+npm-debug.log
+session.vim
+.DS_Store
+
+vim/vim.symlink/spell/
+vim/vim.symlink/plugged/
+vim/vim.symlink/autoload/plug.vim
+vim/vim.symlink/autoload/plug.vim.old
+

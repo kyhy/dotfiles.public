@@ -1,0 +1,4 @@
+-- local dim_background = require("dim-background")
+-- dim_background.setup({
+--   color = "#2d2a45"
+-- })
