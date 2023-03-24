@@ -1,8 +1,4 @@
-if [[ $(arch) == 'arm64' ]]; then
-  source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
-else
-  source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
-fi
+source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 for COLOR in RED GREEN YELLOW BLUE MAGENTA CYAN BLACK WHITE; do
   eval $COLOR='%{$fg[${(L)COLOR}]%}'
